@@ -7,7 +7,7 @@ const refs = {
 
 const timer = {
   start() {
-    const startTime = new Date("2021-06-10 12:00:08")
+    const startTime = new Date("2021-08-21 12:00:08")
 
     setInterval(() => {
       const currentTime = new Date()
