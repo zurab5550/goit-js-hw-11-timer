@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 11</title>
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+      body {
+        background: #363f48;
+        color: white;
+        font: normal 12px "Open Sans", sans-serif;
+        margin-top: 20px;
+      }
+
+      .timer {
+        list-style: none;
+        margin: 75px 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+      }
+
+      .field {
+        display: inline-block;
+      }
+
+      .field .value {
+        font-size: 80px;
+        font-weight: 300;
+        line-height: 80px;
+      }
+
+      .field .label {
+        color: #a7abb1;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="timer" id="timer-1">
+      <div class="field">
+        <span class="value" data-value="days">11</span>
+        <span class="label">Days</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="hours">11</span>
+        <span class="label">Hours</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="mins">11</span>
+        <span class="label">Minutes</span>
+      </div>
+
+      <div class="field">
+        <span class="value" data-value="secs">11</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
